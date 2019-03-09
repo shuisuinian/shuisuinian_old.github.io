@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title><![CDATA[hexo创建]]></title>
+    <url>%2F2019%2F03%2F09%2Fhexo%E5%88%9B%E5%BB%BA%2F</url>
+    <content type="text"><![CDATA[hexo 静态博客1、 安装node.js管理员身份进入cmd首先验证是否安装成功12node -vnpm -v 2、更换源（改为淘宝源） npm install -g cnpm --registry=https://registry.npm.taobao.org键入命令后回车cnpm -v 进行验证 3、使用cnpm 来安装hexo博客框架cnpm install -g hexo-clihexo -v 进行验证 4、新建文件夹blog进入该文件夹，再执行命令mkdir blogcd bloghexo init等待一段时间安装 出现Start blogging with Hwxo!表示安装成功 5、启动博客hexo s浏览器进入 localhost:4000 发现有一个默认创建的文章 6、新建博文hexo n &quot;我的第一篇hexo文章” 7、部署到github上在github里新建一个repostory命名 ！！！！你的用户名.github.io 8、安装插件还是在管理员下 cmd 进入blog目录下cnpm install --save hexo-deployer-git 安装时有个 peerDependencies WARNING 不用管 设置_config.yml 文件 123456 # Deployment## Docs: https://hexo.io/docs/deployment.htmldeploy: type: git repo: https://github.com/shuisuinian/shuisuinian.github.io.git banch: maste 推送到github hexo d 9、更换主题 git clone https://github.com/litten/hexo-theme-yilia.git. themes/yilia 修改 之前的_config.yml 找到 theme 这行 修改为theme: yilia 执行以下命令1234hexo cleanhexo ghexo shexo d 10、排除错误缺失模块。1、请确保node版本大于6.22、在博客根目录（注意不是yilia根目录）执行以下命令：cnpm i hexo-generator-json-content –save3、在根目录_config.yml里添加配置： jsonContent: meta: false pages: false posts: title: true date: true path: true text: false raw: false content: false slug: false updated: false comments: false link: false permalink: false excerpt: false categories: false tags: true]]></content>
+      <categories>
+        <category>Hello World</category>
+      </categories>
+      <tags>
+        <tag>hexo博客</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Hello World]]></title>
+    <url>%2F2019%2F03%2F08%2Fhello-world%2F</url>
+    <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
+      <categories>
+        <category>Hello World</category>
+      </categories>
+      <tags>
+        <tag>Hello World</tag>
+      </tags>
+  </entry>
+</search>
