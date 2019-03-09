@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://shuisuinian.github.io/"/>
-  <updated>2019-03-09T01:27:26.812Z</updated>
+  <updated>2019-03-09T16:15:00.458Z</updated>
   <id>https://shuisuinian.github.io/</id>
   
   <author>
@@ -15,6 +15,36 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>单例设计模式</title>
+    <link href="https://shuisuinian.github.io/2019/03/10/Static%E5%85%B3%E9%94%AE%E5%AD%97/"/>
+    <id>https://shuisuinian.github.io/2019/03/10/Static关键字/</id>
+    <published>2019-03-09T16:12:11.000Z</published>
+    <updated>2019-03-09T16:15:00.458Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h4 id=&quot;单例设计模式&quot;&gt;&lt;a href=&quot;#单例设计模式&quot; class=&quot;headerlink&quot; title=&quot;单例设计模式&quot;&gt;&lt;/a&gt;单例设计模式&lt;/h4&gt;&lt;p&gt;必须对于多个程序使用同一个配置信息对象时，就需要保证该对象的唯一性。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;
+        
+      
+    
+    </summary>
+    
+      <category term="java" scheme="https://shuisuinian.github.io/categories/java/"/>
+    
+    
+      <category term="javase" scheme="https://shuisuinian.github.io/tags/javase/"/>
+    
+      <category term="设计模式" scheme="https://shuisuinian.github.io/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"/>
+    
+  </entry>
   
   <entry>
     <title>hexo创建</title>
